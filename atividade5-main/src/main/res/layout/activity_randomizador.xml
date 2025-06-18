@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_randomizador.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText android:id="@+id/inputCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Categoria" />
+
+    <EditText android:id="@+id/inputItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item da Categoria" />
+
+    <Button android:id="@+id/btnAdicionar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Adicionar" />
+
+    <ListView android:id="@+id/listViewCategorias"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <Button android:id="@+id/btnSortear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sortear" />
+
+    <TextView android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Resultado do sorteio aparecerá aqui" />
+</LinearLayout>

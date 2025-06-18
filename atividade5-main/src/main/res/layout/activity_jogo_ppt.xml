@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_jogo_ppt.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <ImageView android:id="@+id/imgEscolhaIA"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_placeholder3" />
+
+    <TextView android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Resultado" />
+
+    <TextView android:id="@+id/txtPlacar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Placar: 0 x 0" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btnPedra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pedra" />
+
+        <Button android:id="@+id/btnPapel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Papel" />
+
+        <Button android:id="@+id/btnTesoura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tesoura" />
+    </LinearLayout>
+</LinearLayout>
+
